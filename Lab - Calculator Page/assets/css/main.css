@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: 'Droid Sans', 'Arial', 'Helvetica', 'Verdena';
+  font-size: 16px;
+}
+
+h1 {
+  padding: 35px 15px 20px;
+  font-size: 3em;
+}
+
+p{
+  margin-bottom: 15px;
+}
+
+.answers > span {
+  font-weight: 700;
+  color: #E45642;
+}
+
+/* Layout Classes */
+.container{
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+[class^='w-'] {
+  margin: 0 auto;
+}
+
+.w-10{
+  width: 83.3333%;
+}
+
+.w-12{
+  width: 100%;
+}
+
+/* Layout Classess */
+.box{
+  padding: 30px 15px;
+  border: 2px solid #000;
+}
+
+.box-light-orange{
+  background-color: #F0AA4C;
+  border-color: #E45642;
+  color: #5D4C45;
+}
+
+.box-orange{
+  background-color: #E45642;
+}
+
+.space-bottom{
+  margin-bottom: 15px;
+}
+
+/* Font Sizes */
+.t-18{
+  font-size: 18px;
+}
+
+.t-20{
+  font-size: 20px;
+}
+
+.t-24{
+  font-size: 24px;
+}
+
+/* Custom Classess */
+
+.jumbotron{
+  padding: 50px 35px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.grey-text{
+  color: #7B8D91;
+}
+
+.cyan-text {
+  color: #44B4C2;
+}
+
+.brown-text {
+  color: #5D4C45;
+}
+
+.light-orange-text {
+  color: #F0AA4C;
+}
+
+.orange-text {
+  color: #E45642;
+}
+
+.brown-bg {
+  background-color: #5D4C45;
+}
+
+.light-orange-bg {
+  background-color: #F0AA4C;
+}
+
+.orange-bg {
+  background-color: #E45642;
+}
